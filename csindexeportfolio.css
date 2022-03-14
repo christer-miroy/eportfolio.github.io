@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    border-style: none;
+}
+.card{
+    background: none;
+    border-style: none;
+}
+.card-body{
+    background-color: antiquewhite;
+    opacity: 0.8;
+    color: black;
+    border-radius: 5px;
+    border-style: none;
+}
+.card-header{
+    background-color: antiquewhite;
+    opacity: 0.8;
+    color: black;
+    border-radius: 10px;
+    border-style: none;
+}
