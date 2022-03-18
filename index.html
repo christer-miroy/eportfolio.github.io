@@ -14,7 +14,7 @@
       <img src="webdeveloper.jpg" class="card-img" alt="...">
       <div class="card-img-overlay"><!--image overlay-->
         <!--header-->
-        <h2 class="card-title d-flex justify-content-center">Christer Zandrei Miroy</h2>
+        <h1 class="card-title d-flex justify-content-center">Christer Zandrei Miroy</h1>
         <p class="card-text d-flex justify-content-center">Web Developer</p>
         <!--end header-->
         <!--about me-->
@@ -46,8 +46,8 @@
             <div class="col-sm-6">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">
                     <a href="https://christer-miroy.github.io/patient_information_system.github.io/patientform.html" target="_blank"><img src="patient.png" class="picture"></a><br/>
+                    <h5 class="card-title">
                     <p>Patient Information Form</p>
                   </h5>
                   <p>JavaScript site with APIs.</p>
@@ -66,8 +66,12 @@
             <div class="col-sm-6"><!--email address-->
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Email Address:</h5>
-                  <p>chrstrzm.mry@gmail.com</p>
+                  <form class="contact">
+                    <input type="text" name="fullname" placeholder="Full Name" size="50"><br><br>
+                    <input type="email" name="email" placeholder="E-Mail" size="50"><br><br>
+                    <textarea type="textarea" value="message" rows="5" cols="53" placeholder="Message"></textarea><br><br>
+                    <a href="/" class="send"><h4>Send Message</h4></a>
+                  </form>
                 </div>
               </div>
             </div><!--end email address-->
