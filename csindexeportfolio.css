@@ -38,3 +38,9 @@ body{
 .send{
     color: white;
 }
+
+.send :hover{
+    border: 1px;
+    border-style: dashed;
+    color: black;
+}
